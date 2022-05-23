@@ -1,5 +1,5 @@
 {
-  "name": "react-password",
+  "name": "react-passwaad",
   "version": "1.0.0",
   "description": "A simple react component that creates a password input field with requirements that can be changed",
   "main": "index.js",
