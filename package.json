@@ -1,0 +1,40 @@
+{
+  "name": "react-password",
+  "version": "1.0.0",
+  "description": "A simple react component that creates a password input field with requirements that can be changed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wan-mureithi/react-password.git"
+  },
+  "author": "John Nyingi, Esther Mureithi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wan-mureithi/react-password/issues"
+  },
+  "homepage": "https://github.com/wan-mureithi/react-password#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@storybook/addon-actions": "^6.5.4",
+    "@storybook/addon-essentials": "^6.5.4",
+    "@storybook/addon-interactions": "^6.5.4",
+    "@storybook/addon-links": "^6.5.4",
+    "@storybook/builder-webpack4": "^6.5.4",
+    "@storybook/manager-webpack4": "^6.5.4",
+    "@storybook/react": "^6.5.4",
+    "@storybook/testing-library": "0.0.11",
+    "babel-loader": "^8.2.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "dependencies": {}
+}
