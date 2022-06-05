@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PasswordInput = () => {
+const Passwaad = () => {
   return (
     <div>
         <input id="password" placeholder='Password' type="text" />
@@ -8,4 +8,4 @@ const PasswordInput = () => {
   )
 }
 
-export default PasswordInput
+export default Passwaad
