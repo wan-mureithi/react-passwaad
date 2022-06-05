@@ -43,18 +43,20 @@ function PasswaadChecker(password) {
         }
     }
     
-    if(hasUpperCase && hasLowerCase && hasNumber && hasSpecialChar && N > 8)
+    if(hasUpperCase && hasLowerCase && hasNumber && hasSpecialChar && N >= 8)
     {
         return "Strong";
     }  
-    else if((hasUpperCase && hasSpecialChar) || (hasLowerCase && hasSpecialChar) && N > 8) {
+    else if((hasUpperCase && hasSpecialChar) || (hasLowerCase && hasSpecialChar) && N >=8) {
         return "Strong"
     }
     else if(hasUpperCase && hasLowerCase && N > 8) {
         return "Moderate"
     }
-    else if((hasUpperCase && hasNumber) || (hasLowerCase && hasNumber) && N > 8 )
+    else if((hasUpperCase && hasNumber) || (hasLowerCase && hasNumber) && N >=8 )
     {
+        return "Moderate"
+    } else{
         return "Moderate"
     }
 
